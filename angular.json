@@ -7,7 +7,7 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "app",
+      "prefix": "racing",
       "schematics": {},
       "architect": {
         "build": {
@@ -23,7 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -72,7 +72,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "styles.css"
+              "styles.scss"
             ],
             "scripts": [],
             "assets": [
@@ -118,5 +118,14 @@
       }
     }
   },
-  "defaultProject": "racing-app"
+  "defaultProject": "racing-app",
+  "schematics": {
+    "@schematics/angular:component": {
+      "prefix": "racing",
+      "styleext": "scss"
+    },
+    "@schematics/angular:directive": {
+      "prefix": "racing"
+    }
+  }
 }
