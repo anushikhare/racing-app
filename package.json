@@ -23,7 +23,7 @@
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26",
-    "bootstrap-sass": "3.3.7"
+    "bootstrap-sass": "3.4.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.803.17",
